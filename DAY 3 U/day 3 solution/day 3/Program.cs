@@ -4,6 +4,19 @@
      {
         static void Main()
         {
+            #region value Type Comparison
+
+            int x = 3;
+            int y = 4;
+
+            bool equel = x == y; // result ==> false
+            bool notequel = x != y; //result ==> true
+            bool greater = x > y; // result ==> false
+            bool less = x < y; // result ==> true
+
+            Console.WriteLine(equel);
+
+            #endregion
 
             #region Reference Type Comparison
 
@@ -17,6 +30,7 @@
 
             Console.WriteLine("s2 value : " + s2);
             Console.WriteLine("s2 place : " + s2.GetHashCode());
+
             #endregion
 
             #region Ternary operator
@@ -30,6 +44,7 @@
             int y = 10;
             string mod = (y % 3 == 0) ? "divisibale " : " not divisibale";
             Console.WriteLine(mod);
+
             #endregion
 
             #region $ String text
@@ -38,20 +53,22 @@
             #endregion
 
             #region postfix and prefix
+
             //postfix
             int z = 1;
             Console.WriteLine(z++); //print 1
             Console.WriteLine(z); //print 2
 
-            
+
             //prefix
             int a = 1;
             Console.WriteLine(++a); //print 2
             Console.WriteLine(a); //print 2
+
             #endregion
 
         }
 
-    }
+     }
 
 }
