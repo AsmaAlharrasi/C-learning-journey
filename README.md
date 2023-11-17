@@ -9,7 +9,7 @@ In the first day of our journy to learn C# we discuss several topics:
 3-Solution and project.
 4-Project Code structure.
 
-<<Front and Back End>>
+#Front and Back End
 
 I learn that In web development the front end refers to the user interface and what the user interact with,
 but the back end involves the server side development and database.Also, each one use different programming langueges
@@ -20,18 +20,18 @@ C# is one of the programming language developed by Microsoft. it is desigend for
 application in .NET framework including desktop, web and mopile applocation in addetion 
 C# is a cross-platform which can run in multiple platform including Windows, IOS and Linux.
 
-<<Visual Studio Code>>
+#Visual Studio Code
 
 In this section we learned how to install the packeges of C# and create a new project and choose the 
 platforms and project type.
 
-<<solution and project>>
+#Solution and project
 
 Solution is the one thing that i learn in the first day and I found it interesting and I will explain why.
 So solution is like a container or wrapper for big projects, it is include web app, desktop app and mopile app 
 so we can create many project inside one solution. thts mean we can build one code can run for many projects.
 
-<<Project  Code Structure>>
+#Project  Code Structure
 
 Project in C# always contain four importent things:
 * NameSpace: name of the project.
@@ -52,16 +52,16 @@ In the second day of our journy to learn C# we discuss several topics:
 3-Logical Operators 
 4-Shortcuts
 
-<<Commen Type System>>
+#Commen Type System
 
 I learn that Commen Type System (CTS) divided into two data type , Value Type and Reference Type.
 I will explain the different between them.
 
-#Value Type: data of known size like numbers such as age or phone number also true and false value
+*Value Type: data of known size like numbers such as age or phone number also true and false value
 and these data stored in Stack which hase a limitid size of memory. 
 (bool - byte - int - float - long - double)
 
-#Reference Type: data of unknown size like discreption and names and these data stored in a stack 
+*Reference Type: data of unknown size like discreption and names and these data stored in a stack 
 inside the Heap which the name identifier save in stack and the value sve in heap and the 
 variable indicate to the value location.
 (String - Class - Object - Interface)
@@ -72,7 +72,7 @@ variable indicate to the value location.
  so that we can use all this languages of this framework in one project.
 
 
-<<Expression and Comparison Operators>>
+#Expression and Comparison Operators
 
 In this section we learn about Comparison operators types in C# but before I will tel you about 
 String Concatenation which we can use it when we need to connect variables togather 
