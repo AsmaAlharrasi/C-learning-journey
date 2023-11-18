@@ -23,49 +23,25 @@
 
             #endregion
 
-            #region casting double
-
-            // double, decimel, float
-
-            double money = 4.5;
-            float salary = 34.98f; //casting from double to float
-            decimal ayment = 120.99m; //casting fromb double to decimal
-
-            //casting implicit
-
-            int number_of_days = 90;
-            long ssn = number_of_days; //casting from int to long
-            Console.WriteLine(ssn);
-
-
-            //casting explicit
-
-            double payment = 150.500;
-            int real_payment = (int)payment; //casting from double to int , int x = (int)y ,long x = (long) y
-            Console.WriteLine(real_payment);
-
-            #endregion
-
-            #region casting object
-
-            // object
-
-            Object obj1 = new object();
-            Object obj2 = new object();
-            Console.WriteLine(obj1.GetHashCode());
-            Console.WriteLine(obj2.GetHashCode());
-            Console.WriteLine("aaaaaaaaa");
-            obj2 = obj1;
-            Console.WriteLine(obj1.GetHashCode());
-            Console.WriteLine(obj2.GetHashCode());
-
-            #endregion
-
             #region Expression
 
             int y = 6 + 2; //result ==> the Expression "6+2" evaluates to 8
             string name = "Asma" + "Alharrasi"; //the Expression " "Asma" + "Alharrasi" " evaluates to ==> Asma Alharrasi
             bool x = (2 < 3) && (2 = 3); //the Expression "(2 > 3) && (2 = 3)" evaluates to False
+
+            #endregion
+
+            #region Comparison Operators
+
+            int x = 3;
+            int y = 4;
+
+            bool equel = x == y; // result ==> false
+            bool notequel = x != y; //result ==> true
+            bool greater = x > y; // result ==> false
+            bool less = x < y; // result ==> true
+
+            Console.WriteLine(equel);
 
             #endregion
 
@@ -78,6 +54,20 @@
             bool resultOR = a || b; // result ==> true 
             bool resultNOT = a != b; // result ==> false
             bool resultXOR = a ^ b; // result ==> true
+
+            #endregion
+
+            #region Ternary operator
+
+            //Ternary operator 1
+            int x = 4;
+            string result = (x % 2 == 0) ? " x is even " : " x is odd";
+            Console.WriteLine(result);
+
+            //Ternary operator 2
+            int y = 10;
+            string mod = (y % 3 == 0) ? "divisibale " : " not divisibale";
+            Console.WriteLine(mod);
 
             #endregion
 

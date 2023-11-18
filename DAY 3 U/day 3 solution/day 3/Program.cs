@@ -4,17 +4,42 @@
      {
         static void Main()
         {
-            #region value Type Comparison
 
-            int x = 3;
-            int y = 4;
+            #region casting double
 
-            bool equel = x == y; // result ==> false
-            bool notequel = x != y; //result ==> true
-            bool greater = x > y; // result ==> false
-            bool less = x < y; // result ==> true
+            // double, decimel, float
 
-            Console.WriteLine(equel);
+            double money = 4.5;
+            float salary = 34.98f; //casting from double to float
+            decimal ayment = 120.99m; //casting fromb double to decimal
+
+            //casting implicit
+
+            int number_of_days = 90;
+            long ssn = number_of_days; //casting from int to long
+            Console.WriteLine(ssn);
+
+
+            //casting explicit
+
+            double payment = 150.500;
+            int real_payment = (int)payment; //casting from double to int , int x = (int)y ,long x = (long) y
+            Console.WriteLine(real_payment);
+
+            #endregion
+
+            #region casting object
+
+            // object
+
+            Object obj1 = new object();
+            Object obj2 = new object();
+            Console.WriteLine(obj1.GetHashCode());
+            Console.WriteLine(obj2.GetHashCode());
+            Console.WriteLine("aaaaaaaaa");
+            obj2 = obj1;
+            Console.WriteLine(obj1.GetHashCode());
+            Console.WriteLine(obj2.GetHashCode());
 
             #endregion
 
@@ -33,25 +58,6 @@
 
             #endregion
 
-            #region Ternary operator
-
-            //Ternary operator 1
-            int x = 4;
-            string result = (x % 2 == 0) ? " x is even " : " x is odd";
-            Console.WriteLine(result);
-
-            //Ternary operator 2
-            int y = 10;
-            string mod = (y % 3 == 0) ? "divisibale " : " not divisibale";
-            Console.WriteLine(mod);
-
-            #endregion
-
-            #region $ String text
-            Console.WriteLine($"s1 value :  {s1}"); /* we put $ in the beiging to write value inside the string text 
-                                                      * but we should write the value inside curly prases {} */
-            #endregion
-
             #region postfix and prefix
 
             //postfix
@@ -65,6 +71,11 @@
             Console.WriteLine(++a); //print 2
             Console.WriteLine(a); //print 2
 
+            #endregion
+
+            #region $ String text
+            Console.WriteLine($"s1 value :  {s1}"); /* we put $ in the beiging to write value inside the string text 
+                                                      * but we should write the value inside curly prases {} */
             #endregion
 
         }
