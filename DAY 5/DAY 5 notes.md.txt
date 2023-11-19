@@ -1,0 +1,71 @@
+C# Learning Juorney
+
+DAY 5:-
+
+In the fifth day of our journy to learn C# we discuss several topics:-
+1-Casting
+2-Iteration
+3-Null
+
+#Casting
+
+In C# casting refers to converting a value from one data type to another and there is two
+types of casting:-
+
+1) Value Type to Value Type:
+
+a) Implicit: convert from lower size data to a higher size data for example:
+int number_of_days = 90;
+long ssn = number_of_days;
+Console.WriteLine(ssn);
+⇒ convert int(lower size) to long (higher size).
+
+b) Explicit: convert from higher size data to a lower size data for example:
+double payment = 150.500;
+int real_payment = (int)payment;
+Console.WriteLine(real_payment);
+⇒ convert double (higher size) to int(lower size).
+
+c) Convert from double to float and decimal :
+float salary = 34.98f; ⇒ use ( f) to casting from double to float.
+decimal payment =120.99m; ⇒ use (m) to casting from double to decimal.
+
+2) Value Type to Reference Type and visa versa:
+
+a) Boxing: convert from Value Type to Reference Type by using ToString()
+Function for example:
+int num = 4;
+string str = num.ToString( ); ⇒ string is array of chars [ a,s,m,a]
+Console.WriteLine( str [1] ); ⇒ result ⇒ 2 as string
+
+b) UnBoxing: convert from Reference Type to Value Type by using three
+functions ( Parse( ) - TryParse( ) - Convert.ToInt32( ) ) for example:
+string a = "3";
+int z = int.Parse(a);
+Console.WriteLine(a); ⇒ result ⇒ 3 as integer
+
+string value = "2468";
+int.TryParse(value, out int x); ⇒ result ⇒ 2468 as integer
+Console.WriteLine(x);
+
+bool string result = int.TryParse(value, out x) ? $"true {x}" : $"false{x}";
+⇒ result ⇒ true or false
+Console.WriteLine(result)
+
+
+#Iteration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
