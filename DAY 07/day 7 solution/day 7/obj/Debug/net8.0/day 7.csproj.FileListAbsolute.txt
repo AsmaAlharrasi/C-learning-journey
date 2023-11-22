@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\bin\Debug\net8.0\day 7.exe
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\bin\Debug\net8.0\day 7.deps.json
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\bin\Debug\net8.0\day 7.runtimeconfig.json
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\bin\Debug\net8.0\day 7.dll
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\bin\Debug\net8.0\day 7.pdb
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\obj\Debug\net8.0\day 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\obj\Debug\net8.0\day 7.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\obj\Debug\net8.0\day 7.AssemblyInfo.cs
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\obj\Debug\net8.0\day 7.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\obj\Debug\net8.0\day 7.sourcelink.json
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\obj\Debug\net8.0\day 7.dll
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\obj\Debug\net8.0\refint\day 7.dll
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\obj\Debug\net8.0\day 7.pdb
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\obj\Debug\net8.0\day 7.genruntimeconfig.cache
+C:\Users\HP\Desktop\Code Academy\coding\Practis Codes\DAY 07\day 7 solution\day 7\obj\Debug\net8.0\ref\day 7.dll

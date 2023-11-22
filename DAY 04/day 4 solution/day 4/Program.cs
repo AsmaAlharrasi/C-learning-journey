@@ -89,20 +89,20 @@
 
             #region HW 1 solution
 
-            ////HW 1
-            //string[] menu = { "Latte", "Capp", "Amre" };
-            //double[] price = { 3.50, 2.50, 1.50 };
-            //string[] size = { "small", "medium", "larg" };
+            //HW 1
+            string[] menu = { "Latte", "Capp", "Amre" };
+            double[] price = { 3.50, 2.50, 1.50 };
+            string[] size = { "small", "medium", "larg" };
 
-            //Console.WriteLine($"1.{menu[0]} -- 3.50");
-            //Console.WriteLine($"1.{menu[1]} -- 2.50");
-            //Console.WriteLine($"1.{menu[2]} -- 1.50");
-            //Console.WriteLine("please select the desierd drink from (1-3): ");
-            //int value = Convert.ToInt32( Console.ReadLine() );
+            Console.WriteLine($"1.{menu[0]} -- 3.50");
+            Console.WriteLine($"1.{menu[1]} -- 2.50");
+            Console.WriteLine($"1.{menu[2]} -- 1.50");
+            Console.WriteLine("please select the desierd drink from (1-3): ");
+            int value = Convert.ToInt32(Console.ReadLine());
 
-            //string Drink;
-            //double prices;
-            //string size;
+            string Drink;
+            double prices;
+            string size;
 
             #endregion
 
